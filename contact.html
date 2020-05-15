@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- bootstrap icon link -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <script src="javascript.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="resume.html">
+        <h1>Dina Liubarets</h1>
+      </a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certifications.html">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h3>Contact Me</h3>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <table class="table">
+            <tr>
+              <th>Name</th>
+              <td>Dina Liubarets</td>
+            </tr>
+            <tr>
+              <th>Phone</th>
+              <td>
+                <a href="tel: +16138791608">613-879-1608</a>
+              </td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td>
+                <a href="mailto: di.liubarets@outlook.com"
+                  >di.liubarets@outlook.com</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h3>Send me message</h3>
+
+          <form
+            id="my-form"
+            action="https://formspree.io/xwkrpzap"
+            method="POST"
+          >
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              class="form-control"
+            />
+
+            <textarea
+              name="message"
+              placeholder="Message"
+              type="text"
+              class="form-control"
+              style="padding: 10px; height: 200px;"
+            ></textarea>
+            <button id="my-form-button" class="btn btn-secondary btn-block">
+              Send Message
+            </button>
+            <p id="my-form-status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="absolute-bottom media" >
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/dinabydaily/"
+              class="fa fa-facebook"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/dina-liubarets-4848251a6/"
+              class="fa fa-linkedin"
+              >LinkedIn</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/di_liubarets/"
+              class="fa fa-instagram"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/DiLiubarets" class="fa fa-github"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; 2020 Di Liubarets</span>
+      </div>
+    </footer>
+  </body>
+</html>
