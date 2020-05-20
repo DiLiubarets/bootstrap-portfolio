@@ -98,6 +98,9 @@ html {
  .media {
   margin-bottom: 30px;
  }
+ .card{
+   margin-bottom: 100px;
+ }
  .footer {
   position: absolute;
   bottom: 0;
