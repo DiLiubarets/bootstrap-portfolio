@@ -28,10 +28,15 @@ html {
     color:black;
     background-size: cover;
     }
-  .display-6{
+  .hello{
     text-align: center;
     margin-left: -5em;
+    margin-top: -5px;
+    padding-left: 100px;
     
+  }
+  .develop{
+    margin-bottom: 1em;
   }
   .program  {
     margin-top: 16em;

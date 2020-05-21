@@ -36,17 +36,17 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     #name h1 {
-        font-size: 2.5em;
+        font-size: 1em;
         font-weight: 700;
         font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-        margin-left: 60px;
+        margin-left: 40%;
         color: black;
     }
     
     #name h2 {
         color: #181818;
-        font-size: 2em;
-        margin-left: 60px;
+        font-size: 1em;
+        margin-left: 50%;
         font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     }
     
@@ -55,25 +55,23 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     #headshot {
-        width: 12.5%;
+       width: 30%;
         float: left;
-        margin-right: 30px;
+        margin: -20px;
+        margin-bottom: -3em;
+        margin-top: -2em;
+        
     }
     
-    #headshot img {
-        width: 160px;
-        height: 200px;
-      
-       
-    }
-    
+  
     #name {
         float: left;
+       
     }
     
     #contactDetails {
         float: right;
-        margin-top: -6em;
+       
     }
     
     #contactDetails ul {
@@ -103,7 +101,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         color: blue;
     }
     
-    
+    .projectlinks{
+        color:#444;
+    }
     section {
         border-top: 1px solid #dedede;
         padding: 20px 0 0;
@@ -160,18 +160,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         margin-bottom: 3px;
     }
     
-    @media all and (min-width: 602px) and (max-width: 800px) {
-        #headshot {
-            display: none;
-        }
-        
-        .keySkills {
-        -moz-column-count:2;
-        -webkit-column-count:2;
-        column-count:2;
-        }
-    }
-    
+   
     @media all and (max-width: 601px) {
         #cv {
             width: 95%;
@@ -180,13 +169,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         }
         
         #headshot {
-            display: none;
+            width: 90%;
         }
         
         #name, #contactDetails {
-            float: none;
+            float: left;
             width: 100%;
             text-align: center;
+            margin-top: 3em;
+            margin-left: -3em;
         }
         
         .sectionTitle, .sectionContent {
@@ -228,15 +219,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         
         #name h1 {
             line-height: .8em;
-            margin-bottom: 4px;
+           margin-top: 3em;
         }
     }
     
-    @media print {
-        #cv {
-            width: 100%;
-        }
-    }
+   
     
     @-webkit-keyframes reset {
         0% {
