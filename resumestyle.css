@@ -73,6 +73,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     
     #contactDetails {
         float: right;
+        margin-top: -6em;
     }
     
     #contactDetails ul {
@@ -82,7 +83,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     #contactDetails ul li {
-        margin-bottom: 3px;
+       
         color: #444;
         display: inline;
     }
@@ -313,6 +314,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         animation-duration: 1.5s;
         animation-timing-function: ease-in;
     }
+
+    .container, .container-fluid {
+        width: auto;
+        display: block!important;
+     }
     
     .quickFade {
         -webkit-animation-name: reset, fade-in;
@@ -357,3 +363,4 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         -moz-animation-delay: 0, 2.5s;
         animation-delay: 0, 2.5s;
     }
+    
