@@ -1,127 +1,111 @@
-
 html {
-    position: relative;
-    min-height: 100%;
-  }
-  .navbar {
-    background-color: black !important;
-    text-decoration-color: white;
-  }
-  h1 {
-    font-size: 4vh; 
-    padding-left: 50px;
-  }
-  h3 {
-    font-size: 4vh;
-  }
-  body {
-    background-color: #E2E3D9;
-    margin: 0;
-   
-  }
+  position: relative;
+  min-height: 100%;
+}
+.navbar {
+  background-color: black !important;
+  text-decoration-color: white;
+}
+h1 {
+  font-size: 4vh;
+  padding-left: 50px;
+}
+h3 {
+  font-size: 4vh;
+}
+body {
+  background-color: #e2e3d9;
+  margin: 0;
+}
 
-  .jumbotron {
-    position: relative;
-    background: url("./assets/bc.jpg") no-repeat center;
-    width:100%;
-    height: 80vh;
-    color:black;
-    background-size: cover;
-    }
-  .hello{
-    text-align: center;
-    margin-left: -5em;
-    margin-top: -5px;
-    padding-left: 100px;
-    
-  }
-  .develop{
-    margin-bottom: 1em;
-  }
-  .program  {
-    margin-top: 16em;
-    
-  }
- 
-  .mission {
-    text-align: center;
-    
-  }
+.jumbotron {
+  position: relative;
+  background: url("./assets/bc.jpg") no-repeat center;
+  width: 100%;
+  height: 80vh;
+  color: black;
+  background-size: cover;
+}
+.hello {
+  text-align: center;
+  margin-left: -5em;
+  margin-top: -5px;
+  padding-left: 100px;
+}
+.develop {
+  margin-bottom: 1em;
+}
+.program {
+  margin-top: 16em;
+}
 
-  #contact {
-    background-color:white;
-    color:black;
-    margin:0;
-    padding-top: 5px;
-    
-    
-  }
-  h5  {
-    font-size: 15px;
-    padding: 25px;
-    
-    
-  }
-   ul, li, a .media {
-     display: inline;
-     padding: 20px;
-     font-size: 15px;
-     
-     
-   }
-  
-  
-  #name, 
-  #email,
-  #message{
-    margin: 0;
-    padding: 0;
-   
-  
-  }
-  #message {
-   height: 200px;
-  }
-  
+.mission {
+  text-align: center;
+}
 
-.card, 
-.form-control, 
+#contact {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding-top: 5px;
+}
+h5 {
+  font-size: 15px;
+  padding: 25px;
+}
+ul,
+li,
+a .media {
+  display: inline;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#name,
+#email,
+#message {
+  margin: 0;
+  padding: 0;
+}
+#message {
+  height: 200px;
+}
+
+.card,
+.form-control,
 .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #toTop {
-        position: fixed;
-        padding: 10px;
-        bottom: 70px;
-        margin: 5px;
-        right: 20px;
-        border: #a4bcc2;
-        background-color: #a4bcc2;
-      
+  position: fixed;
+  padding: 10px;
+  bottom: 70px;
+  margin: 5px;
+  right: 20px;
+  border: #a4bcc2;
+  background-color: #a4bcc2;
 }
- .img {
-  width: 100%; 
-  height: 200px; 
+.img {
+  width: 100%;
+  height: 200px;
   object-fit: cover;
- }
- a {
-  color: black; 
- }
- .media {
+}
+a {
+  color: black;
+}
+.media {
   margin-bottom: 30px;
- }
- .card{
-   margin-bottom: 100px;
- }
- .footer {
+}
+.card {
+  margin-bottom: 100px;
+}
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color: #A4BCC2;
+  background-color: #a4bcc2;
   text-align: center;
-  
 }
-
