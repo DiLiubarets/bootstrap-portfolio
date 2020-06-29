@@ -23,7 +23,11 @@ $(document).ready(function () {
         error(xhr.status, xhr.response, xhr.responseType);
       }
     };
-    xhr.send(data);
+    //xhr.send(data);
+
+    for (var pair of data.entries()) {
+      console.log(pair[0]+ ', ' + pair[1]); 
+  }
   }
 
   function success() {
